@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+header {
+  text-align: left;
+  padding: 20px 20px;
+  border-bottom: 1px solid #000;
+}
+
+.products {
+  text-align: left;
+  padding: 40px;
+}
+
+.product .rating .rating-pip {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+
+.product .rating .rating-pip.active {
+  background-color: gold;
+}
