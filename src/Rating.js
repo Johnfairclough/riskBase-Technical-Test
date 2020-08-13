@@ -20,9 +20,9 @@ function Product({ rating, maxRating = 5, productId }) {
       );
     }
     return finalRating;
-  };
+ };
 
-  return <div class="rating">{generateRating()}</div>;
-}
+  return <div class="rating"><h3>Rating:</h3>{generateRating()}</div>;
+};
 
 export default Product;

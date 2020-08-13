@@ -9,8 +9,10 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <header className="App-header">
-          <h1>Products R Us</h1>
+          <h1 className="Logo">Products<span className="Logo-Blue">R</span>Us</h1>
         </header>
+        <h2 className="Title">Products for sale</h2>
+        <hr />
         <Products />
       </div>
     </Provider>

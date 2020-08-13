@@ -31,6 +31,7 @@ export const loadProducts = () => ({
   ]
 });
 
+// this is the action that handles the setting of an action
 export const setRating = (rating, productId) => ({
   type: SET_RATING,
   payload: { rating, productId }
